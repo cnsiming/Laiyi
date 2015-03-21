@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2F1CD8A1ABD1733008CEC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1CD891ABD1733008CEC95 /* AppDelegate.swift */; };
+		D2F1CD8C1ABD1733008CEC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1CD8B1ABD1733008CEC95 /* ViewController.swift */; };
+		D2F1CD8F1ABD1733008CEC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F1CD8D1ABD1733008CEC95 /* Main.storyboard */; };
+		D2F1CD911ABD1733008CEC95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F1CD901ABD1733008CEC95 /* Images.xcassets */; };
+		D2F1CD941ABD1733008CEC95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F1CD921ABD1733008CEC95 /* LaunchScreen.xib */; };
+		D2F1CDA01ABD1733008CEC95 /* LaiyiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1CD9F1ABD1733008CEC95 /* LaiyiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2F1CD9A1ABD1733008CEC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F1CD7C1ABD1733008CEC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F1CD831ABD1733008CEC95;
+			remoteInfo = Laiyi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2F1CD841ABD1733008CEC95 /* Laiyi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laiyi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F1CD881ABD1733008CEC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F1CD891ABD1733008CEC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2F1CD8B1ABD1733008CEC95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2F1CD8E1ABD1733008CEC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2F1CD901ABD1733008CEC95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2F1CD931ABD1733008CEC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D2F1CD991ABD1733008CEC95 /* LaiyiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaiyiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F1CD9E1ABD1733008CEC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F1CD9F1ABD1733008CEC95 /* LaiyiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaiyiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2F1CD811ABD1733008CEC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F1CD961ABD1733008CEC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2F1CD7B1ABD1733008CEC95 = {
+			isa = PBXGroup;
+			children = (
+				D2F1CD861ABD1733008CEC95 /* Laiyi */,
+				D2F1CD9C1ABD1733008CEC95 /* LaiyiTests */,
+				D2F1CD851ABD1733008CEC95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2F1CD851ABD1733008CEC95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1CD841ABD1733008CEC95 /* Laiyi.app */,
+				D2F1CD991ABD1733008CEC95 /* LaiyiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2F1CD861ABD1733008CEC95 /* Laiyi */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1CD891ABD1733008CEC95 /* AppDelegate.swift */,
+				D2F1CD8B1ABD1733008CEC95 /* ViewController.swift */,
+				D2F1CD8D1ABD1733008CEC95 /* Main.storyboard */,
+				D2F1CD901ABD1733008CEC95 /* Images.xcassets */,
+				D2F1CD921ABD1733008CEC95 /* LaunchScreen.xib */,
+				D2F1CD871ABD1733008CEC95 /* Supporting Files */,
+			);
+			path = Laiyi;
+			sourceTree = "<group>";
+		};
+		D2F1CD871ABD1733008CEC95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1CD881ABD1733008CEC95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2F1CD9C1ABD1733008CEC95 /* LaiyiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1CD9F1ABD1733008CEC95 /* LaiyiTests.swift */,
+				D2F1CD9D1ABD1733008CEC95 /* Supporting Files */,
+			);
+			path = LaiyiTests;
+			sourceTree = "<group>";
+		};
+		D2F1CD9D1ABD1733008CEC95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1CD9E1ABD1733008CEC95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2F1CD831ABD1733008CEC95 /* Laiyi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F1CDA31ABD1733008CEC95 /* Build configuration list for PBXNativeTarget "Laiyi" */;
+			buildPhases = (
+				D2F1CD801ABD1733008CEC95 /* Sources */,
+				D2F1CD811ABD1733008CEC95 /* Frameworks */,
+				D2F1CD821ABD1733008CEC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laiyi;
+			productName = Laiyi;
+			productReference = D2F1CD841ABD1733008CEC95 /* Laiyi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2F1CD981ABD1733008CEC95 /* LaiyiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F1CDA61ABD1733008CEC95 /* Build configuration list for PBXNativeTarget "LaiyiTests" */;
+			buildPhases = (
+				D2F1CD951ABD1733008CEC95 /* Sources */,
+				D2F1CD961ABD1733008CEC95 /* Frameworks */,
+				D2F1CD971ABD1733008CEC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F1CD9B1ABD1733008CEC95 /* PBXTargetDependency */,
+			);
+			name = LaiyiTests;
+			productName = LaiyiTests;
+			productReference = D2F1CD991ABD1733008CEC95 /* LaiyiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2F1CD7C1ABD1733008CEC95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Zhejiang Laiyi Medicine Co.,Ltd.";
+				TargetAttributes = {
+					D2F1CD831ABD1733008CEC95 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D2F1CD981ABD1733008CEC95 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D2F1CD831ABD1733008CEC95;
+					};
+				};
+			};
+			buildConfigurationList = D2F1CD7F1ABD1733008CEC95 /* Build configuration list for PBXProject "Laiyi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2F1CD7B1ABD1733008CEC95;
+			productRefGroup = D2F1CD851ABD1733008CEC95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2F1CD831ABD1733008CEC95 /* Laiyi */,
+				D2F1CD981ABD1733008CEC95 /* LaiyiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2F1CD821ABD1733008CEC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F1CD8F1ABD1733008CEC95 /* Main.storyboard in Resources */,
+				D2F1CD941ABD1733008CEC95 /* LaunchScreen.xib in Resources */,
+				D2F1CD911ABD1733008CEC95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F1CD971ABD1733008CEC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2F1CD801ABD1733008CEC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F1CD8C1ABD1733008CEC95 /* ViewController.swift in Sources */,
+				D2F1CD8A1ABD1733008CEC95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F1CD951ABD1733008CEC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F1CDA01ABD1733008CEC95 /* LaiyiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2F1CD9B1ABD1733008CEC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2F1CD831ABD1733008CEC95 /* Laiyi */;
+			targetProxy = D2F1CD9A1ABD1733008CEC95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2F1CD8D1ABD1733008CEC95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F1CD8E1ABD1733008CEC95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2F1CD921ABD1733008CEC95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F1CD931ABD1733008CEC95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2F1CDA11ABD1733008CEC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2F1CDA21ABD1733008CEC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2F1CDA41ABD1733008CEC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Laiyi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2F1CDA51ABD1733008CEC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Laiyi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2F1CDA71ABD1733008CEC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LaiyiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laiyi.app/Laiyi";
+			};
+			name = Debug;
+		};
+		D2F1CDA81ABD1733008CEC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LaiyiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laiyi.app/Laiyi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2F1CD7F1ABD1733008CEC95 /* Build configuration list for PBXProject "Laiyi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F1CDA11ABD1733008CEC95 /* Debug */,
+				D2F1CDA21ABD1733008CEC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F1CDA31ABD1733008CEC95 /* Build configuration list for PBXNativeTarget "Laiyi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F1CDA41ABD1733008CEC95 /* Debug */,
+				D2F1CDA51ABD1733008CEC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2F1CDA61ABD1733008CEC95 /* Build configuration list for PBXNativeTarget "LaiyiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F1CDA71ABD1733008CEC95 /* Debug */,
+				D2F1CDA81ABD1733008CEC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2F1CD7C1ABD1733008CEC95 /* Project object */;
+}
